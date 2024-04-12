@@ -1,0 +1,15 @@
+==30746== Memcheck, a memory error detector
+==30746== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==30746== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==30746== Command: Resultados/Elina/main/prog Resultados/Elina/main/Casos/4
+==30746== Parent PID: 30745
+==30746== 
+==30746== 
+==30746== HEAP SUMMARY:
+==30746==     in use at exit: 0 bytes in 0 blocks
+==30746==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==30746== 
+==30746== All heap blocks were freed -- no leaks are possible
+==30746== 
+==30746== For lists of detected and suppressed errors, rerun with: -s
+==30746== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
