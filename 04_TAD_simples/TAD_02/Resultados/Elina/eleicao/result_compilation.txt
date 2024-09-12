@@ -1,0 +1,20 @@
+eleicao.c: In function ‘RealizaEleicao’:
+eleicao.c:46:14: warning: unused variable ‘eleitor’ [-Wunused-variable]
+   46 |     tEleitor eleitor;
+      |              ^~~~~~~
+eleicao.c: In function ‘ImprimeResultadoEleicao’:
+eleicao.c:97:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   97 |         exit(1);
+      |         ^~~~
+eleicao.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    2 | #include "eleicao.h"
+  +++ |+#include <stdlib.h>
+    3 | #include "eleitor.h"
+eleicao.c:97:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   97 |         exit(1);
+      |         ^~~~
+eleicao.c:97:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+eleicao.c:104:17: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+  104 |                 exit(1);
+      |                 ^~~~
+eleicao.c:104:17: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’

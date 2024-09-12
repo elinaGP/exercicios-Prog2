@@ -1,0 +1,15 @@
+==94987== Memcheck, a memory error detector
+==94987== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==94987== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==94987== Command: Resultados/Elina/main/prog Resultados/Elina/main/Casos/7
+==94987== Parent PID: 94986
+==94987== 
+==94987== 
+==94987== HEAP SUMMARY:
+==94987==     in use at exit: 0 bytes in 0 blocks
+==94987==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==94987== 
+==94987== All heap blocks were freed -- no leaks are possible
+==94987== 
+==94987== For lists of detected and suppressed errors, rerun with: -s
+==94987== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
