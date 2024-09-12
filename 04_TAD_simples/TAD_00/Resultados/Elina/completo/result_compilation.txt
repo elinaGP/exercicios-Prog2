@@ -1,0 +1,22 @@
+main.c: In function ‘main’:
+main.c:9:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+    9 |     scanf ("%f %f %f %f", &x1, &y1, &x2, &y2);
+      |     ^~~~~
+main.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "ponto.h"
+  +++ |+#include <stdio.h>
+    2 | 
+main.c:9:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+    9 |     scanf ("%f %f %f %f", &x1, &y1, &x2, &y2);
+      |     ^~~~~
+main.c:9:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+main.c:18:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   18 |         printf ("%d", dist_int);
+      |         ^~~~~~
+main.c:18:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+main.c:18:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+main.c:18:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+main.c:21:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   21 |         printf ("%.3f", dist_float);
+      |         ^~~~~~
+main.c:21:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
